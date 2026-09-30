@@ -85,7 +85,7 @@ $ rabbitmqadmin get queue='hello'
 Запуск кластера производился через docker-compose с одной виртуальной машины, в конфигурационном файле docker-compose описано создание 3-х сервисов/нод rabbitmq. Данный способ был рекомендован как один из возможных для выполнения домашнего задания на лекции.
 
 Скриншот обработки очереди 3-мя нодами кластера
-![Скриншот обработки очереди 3-мя нодами кластера](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Main%20web%20page%20RabbitMQ.png)
+![Скриншот обработки очереди 3-мя нодами кластера](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Cluster.png)
 
 Скриншот политики ha-all
 ![Скриншот политики ha-all](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Ha-all.png)
