@@ -8,7 +8,9 @@
 ---
 ### Решение 1. Установка RabbitMQ
 
-Скриншот web-интерфейса RabbirMQ !
+![Скриншот web-интерфейса RabbirMQ](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Main%20web%20page%20RabbitMQ.png)
+
+---
 
 ### Задание 2. Отправка и получение сообщений
 
@@ -28,6 +30,14 @@ $ pip install pika
 *В качестве решения домашнего задания приложите оба скриншота, сделанных на этапе выполнения.*
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
+
+---
+
+### Решение 2. Отправка и получение сообщений
+
+![Очередь test-q](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Main%20web%20page%20RabbitMQ.png)
+![Сообщение Hello](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Get%20Message%20Hello.png)
+![Получение сообщений Hello скриптом consumer.py в cli](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/consumer.py%20Hello%20message%20in%20CLI.png)
 
 ---
 
@@ -63,3 +73,10 @@ $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
+
+### Решение 3. Подготовка HA кластера
+
+Запуск кластера производился через docker-compose с одной виртуальной машины, в конфигурационном файле docker-compose описано создание 3-х сервисов/нод rabbitmq. Данный способ был рекомендован как один из возможных для выполнения домашнего задания на лекции.
+
+![Скриншот обработки очереди 3-мя нодами кластера](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Main%20web%20page%20RabbitMQ.png)
+![Скриншот политики ha-all](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Ha-all.png)
