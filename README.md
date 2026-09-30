@@ -8,6 +8,7 @@
 ---
 ### Решение 1. Установка RabbitMQ
 
+Скриншот web-интерфейса RabbirMQ
 ![Скриншот web-интерфейса RabbirMQ](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Main%20web%20page%20RabbitMQ.png)
 
 ---
@@ -35,8 +36,13 @@ $ pip install pika
 
 ### Решение 2. Отправка и получение сообщений
 
+Скриншот очереди test-q
 ![Очередь test-q](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Main%20web%20page%20RabbitMQ.png)
+
+Скриншот сообщения Hello
 ![Сообщение Hello](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/Get%20Message%20Hello.png)
+
+Скриншот получения сообщений Hello скриптом consumer.py в cli
 ![Получение сообщений Hello скриптом consumer.py в cli](https://github.com/isokolov2101-afk/RabbitMQ-rep/blob/main/screenshoots/consumer.py%20Hello%20message%20in%20CLI.png)
 
 ---
